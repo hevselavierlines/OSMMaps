@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Matrix Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/Matrix" class="dashAnchor"></a>
+    <a title="Matrix Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (51% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        Matrix Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DrawView.html">DrawView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MapElement.html">MapElement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Matrix.html">Matrix</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Path.html">Path</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ViewController.html">ViewController</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Matrix</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Matrix</span></code></pre>
+
+                </div>
+              </div>
+            <p>All the transformations are performed with a matrix.
+The operations on the matrix are also saved here.
+In general the CGAffineTransform class is used.
+- Author: Manuel Baumgartner</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC7OSMMaps6Matrix15transformMatrixVSC17CGAffineTransform"></a>
+                    <a name="//apple_ref/swift/Property/transformMatrix" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC7OSMMaps6Matrix15transformMatrixVSC17CGAffineTransform">transformMatrix</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Matrix</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC7OSMMaps6Matrix9translateFTV12CoreGraphics7CGFloat2tyS2__S0_"></a>
+                    <a name="//apple_ref/swift/Method/translate(_:ty:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC7OSMMaps6Matrix9translateFTV12CoreGraphics7CGFloat2tyS2__S0_">translate(_:ty:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a new translate matrix
+- Parameter tx: translation in x direction
+- Parameter ty: translation in y direction
+- Returns: The transformation translation matrix</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">translate</span><span class="p">(</span><span class="nv">tx</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">ty</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Matrix</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>tx</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>translation in x direction</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>ty</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>translation in y direction</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The transformation translation matrix</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC7OSMMaps6Matrix5scaleFTV12CoreGraphics7CGFloat2syS2__S0_"></a>
+                    <a name="//apple_ref/swift/Method/scale(_:sy:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC7OSMMaps6Matrix5scaleFTV12CoreGraphics7CGFloat2syS2__S0_">scale(_:sy:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a new scale matrix
+- Parameter sx: scale for the width
+- Parameter sy: scale for the height
+- Returns: The transformation scale matrix</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">scale</span><span class="p">(</span><span class="nv">sx</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">sy</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Matrix</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sx</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>scale for the width</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sy</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>scale for the height</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The transformation scale matrix</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC7OSMMaps6Matrix6rotateFV12CoreGraphics7CGFloatS0_"></a>
+                    <a name="//apple_ref/swift/Method/rotate(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC7OSMMaps6Matrix6rotateFV12CoreGraphics7CGFloatS0_">rotate(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a new rotation matrix
+- Parameter _degree: rotation angle in degrees
+- Returns: The transformation rotation matrix</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">rotate</span><span class="p">(</span><span class="nv">_degree</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Matrix</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The transformation rotation matrix</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC7OSMMaps6Matrix11rotatePointFTV12CoreGraphics7CGFloat2_xS2_2_yS2__S0_"></a>
+                    <a name="//apple_ref/swift/Method/rotatePoint(_:_x:_y:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC7OSMMaps6Matrix11rotatePointFTV12CoreGraphics7CGFloat2_xS2_2_yS2__S0_">rotatePoint(_:_x:_y:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a new rotation matrix with a anchor point.
+- Parameter _degree: rotation angle in degrees
+- Parameter _x: rotation anchor point x coordinate
+- Parameter _y: rotation anchor point y coordiante
+- Returns: The transformation rotation matrix</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">rotatePoint</span><span class="p">(</span><span class="nv">_degree</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">_x</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">_y</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Matrix</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The transformation rotation matrix</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC7OSMMaps6Matrix8reflectXFT_S0_"></a>
+                    <a name="//apple_ref/swift/Method/reflectX()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC7OSMMaps6Matrix8reflectXFT_S0_">reflectX()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a new reclection matrix on the x-axis
+- Returns: The transformation rotation matrix.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">reflectX</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Matrix</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The transformation rotation matrix.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC7OSMMaps6Matrix14getZoomFactorXFTVSC6CGRect7_windowS1__V12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Method/getZoomFactorX(_:_window:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC7OSMMaps6Matrix14getZoomFactorXFTVSC6CGRect7_windowS1__V12CoreGraphics7CGFloat">getZoomFactorX(_:_window:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gets the zoom factor in x direction
+- Parameter _map: The map rectangle
+- Parameter _window: The window rectangle
+- Returns: The zoom factor</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">getZoomFactorX</span><span class="p">(</span><span class="nv">_map</span> <span class="p">:</span> <span class="kt">CGRect</span><span class="p">,</span> <span class="nv">_window</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The zoom factor</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC7OSMMaps6Matrix14getZoomFactorYFTVSC6CGRect7_windowS1__V12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Method/getZoomFactorY(_:_window:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC7OSMMaps6Matrix14getZoomFactorYFTVSC6CGRect7_windowS1__V12CoreGraphics7CGFloat">getZoomFactorY(_:_window:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gets the zoom factor in y direction
+- Parameter _map: The map rectangle
+- Parameter _window: The window rectangle
+- Returns: The zoom factor</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">getZoomFactorY</span><span class="p">(</span><span class="nv">_map</span> <span class="p">:</span> <span class="kt">CGRect</span><span class="p">,</span> <span class="nv">_window</span> <span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The zoom factor</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC7OSMMaps6Matrix9zoomToFitFTVSC6CGRect13_windowBoundsS1__S0_"></a>
+                    <a name="//apple_ref/swift/Method/zoomToFit(_:_windowBounds:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC7OSMMaps6Matrix9zoomToFitFTVSC6CGRect13_windowBoundsS1__S0_">zoomToFit(_:_windowBounds:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Combined operation to get the matrix that fits the complete map on the screen
+- Parameter _mapBounds: the map rectangle
+- Parameter _windowBounds: the window rectangle
+- Returns: The zoom to fix matrix</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">zoomToFit</span><span class="p">(</span><span class="nv">_mapBounds</span><span class="p">:</span><span class="kt">CGRect</span><span class="p">,</span> <span class="nv">_windowBounds</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Matrix</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The zoom to fix matrix</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7OSMMaps6MatrixcFT_S0_"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7OSMMaps6MatrixcFT_S0_">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Matrix</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7OSMMaps6MatrixcFT4_m11V12CoreGraphics7CGFloat4_m12S2_4_m13S2_4_m21S2_4_m22S2_4_m23S2_4_m31S2_4_m32S2_4_m33S2__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(_m11:_m12:_m13:_m21:_m22:_m23:_m31:_m32:_m33:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7OSMMaps6MatrixcFT4_m11V12CoreGraphics7CGFloat4_m12S2_4_m13S2_4_m21S2_4_m22S2_4_m23S2_4_m31S2_4_m32S2_4_m33S2__S0_">init(_m11:_m12:_m13:_m21:_m22:_m23:_m31:_m32:_m33:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Matrix</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7OSMMaps6MatrixcFT1aV12CoreGraphics7CGFloat1bS2_1cS2_1dS2_1eS2_1fS2__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(a:b:c:d:e:f:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7OSMMaps6MatrixcFT1aV12CoreGraphics7CGFloat1bS2_1cS2_1dS2_1eS2_1fS2__S0_">init(a:b:c:d:e:f:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A B C        A C tx
+D E F        B D ty</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="nf">init</span><span class="p">(</span><span class="nv">a</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span><span class="nv">b</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span><span class="nv">c</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span><span class="nv">d</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span><span class="nv">e</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span><span class="nv">f</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7OSMMaps6MatrixcFT9_cgMatrixVSC17CGAffineTransform_S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(_cgMatrix:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7OSMMaps6MatrixcFT9_cgMatrixVSC17CGAffineTransform_S0_">init(_cgMatrix:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Matrix</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7OSMMaps6Matrix7inverseFT_GSqS0__"></a>
+                    <a name="//apple_ref/swift/Method/inverse()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7OSMMaps6Matrix7inverseFT_GSqS0__">inverse()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Calculates the inverse matrix of the current one.
+- Returns: The inverse matrix as optional (in rarely cases no inverse matrix available)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">inverse</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Matrix</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The inverse matrix as optional (in rarely cases no inverse matrix available)</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7OSMMaps6Matrix8multiplyFS0_S0_"></a>
+                    <a name="//apple_ref/swift/Method/multiply(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7OSMMaps6Matrix8multiplyFS0_S0_">multiply(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Multiplies the current matrix with another one.
+- Parameter _other: the matrix to multiply
+- Returns: The result of the multiplication</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">multiply</span><span class="p">(</span><span class="nv">_other</span><span class="p">:</span> <span class="kt">Matrix</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Matrix</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The result of the multiplication</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7OSMMaps6Matrix8multiplyFCSo12UIBezierPathT_"></a>
+                    <a name="//apple_ref/swift/Method/multiply(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7OSMMaps6Matrix8multiplyFCSo12UIBezierPathT_">multiply(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Uses the current matrix on a UIBezierPath</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">multiply</span><span class="p">(</span><span class="nv">_path</span><span class="p">:</span> <span class="kt">UIBezierPath</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7OSMMaps6Matrix8multiplyFCSo6CGPathS1_"></a>
+                    <a name="//apple_ref/swift/Method/multiply(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7OSMMaps6Matrix8multiplyFCSo6CGPathS1_">multiply(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Uses the current matrix on a CGPathRef</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">multiply</span><span class="p">(</span><span class="nv">_path</span><span class="p">:</span> <span class="kt">CGPathRef</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGPathRef</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7OSMMaps6Matrix8multiplyFVSC7CGPointS1_"></a>
+                    <a name="//apple_ref/swift/Method/multiply(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7OSMMaps6Matrix8multiplyFVSC7CGPointS1_">multiply(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Uses the current matrix on a CGPoint</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">multiply</span><span class="p">(</span><span class="nv">_point</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGPoint</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7OSMMaps6Matrix8multiplyFVSC6CGRectS1_"></a>
+                    <a name="//apple_ref/swift/Method/multiply(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7OSMMaps6Matrix8multiplyFVSC6CGRectS1_">multiply(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Uses the current matrix on a CGRect
+- Parameter _rect: The source rect
+- Returns: The new transformed rect</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">multiply</span><span class="p">(</span><span class="nv">_rect</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGRect</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The new transformed rect</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7OSMMaps6Matrix5scaleFT_V12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Method/scale()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7OSMMaps6Matrix5scaleFT_V12CoreGraphics7CGFloat">scale()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gets the current scale.
+- Returns: The scale in 72 DPI.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">scale</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The scale in 72 DPI.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2016-04-22)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.6.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
